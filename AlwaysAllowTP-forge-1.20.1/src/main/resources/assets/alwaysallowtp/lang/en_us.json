@@ -1,0 +1,24 @@
+{
+  "mod.alwaysallowtp.name": "Always Allow Teleport",
+  "mod.alwaysallowtp.description": "Safe teleport system - Secure player-to-player teleportation in any mode",
+
+  "command.tps.success": "§aTeleported %s to %s",
+  "command.tps.success_self": "§aTeleported you to %s",
+  "command.tps.success_here": "§aBrought %s to you",
+  "command.tps.home_success": "§aTeleported %s to spawn point",
+  "command.tps.home_success_self": "§aTeleported you to spawn point",
+  "command.tps.position_success": "§aTeleported %s to coordinates",
+  "command.tps.cooldown": "§cTeleport cooldown, please wait 3 seconds",
+  "command.tps.no_cheat": "§cOnly player-to-player teleportation is allowed in non-cheat mode",
+  "command.tps.unsafe": "§cTarget location is unsafe, teleport blocked!",
+  "command.tps.player_not_found": "§cPlayer not found: %s",
+  "command.tps.usage": "§e=== Always Allow Teleport Commands ===\n§6/tps <player>§f - Teleport to specified player\n§6/tps <player1> <player2>§f - Teleport player1 to player2\n§6/tps <player> home§f - Teleport player to spawn\n§6/tpshome§f - Teleport to your spawn\n§6/tpshere <player>§f - Bring player to you\n§6/tpstome <player>§f - Same as above, bring player to you\n§6/tps <player> <x> <y> <z>§f - Teleport to coordinates (cheat mode only)",
+
+  "key.category.alwaysallowtp": "Always Allow Teleport",
+
+  "config.alwaysallowtp.enableCrossDimension": "Cross-dimension Teleport",
+  "config.alwaysallowtp.strictSafetyCheck": "Strict Safety Check",
+  "config.alwaysallowtp.safeSearchRadius": "Safe Search Radius",
+  "config.alwaysallowtp.cooldownSeconds": "Cooldown Seconds",
+  "config.alwaysallowtp.title": "Always Allow Teleport Configuration"
+}

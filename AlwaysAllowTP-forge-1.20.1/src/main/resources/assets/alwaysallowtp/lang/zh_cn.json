@@ -1,0 +1,24 @@
+{
+  "mod.alwaysallowtp.name": "始终允许传送",
+  "mod.alwaysallowtp.description": "安全传送系统 - 在任何模式下进行安全的玩家间传送",
+
+  "command.tps.success": "§a已传送 %s 到 %s",
+  "command.tps.success_self": "§a已传送你到 %s",
+  "command.tps.success_here": "§a已将 %s 传送到你身边",
+  "command.tps.home_success": "§a已传送 %s 到重生点",
+  "command.tps.home_success_self": "§a已传送你到重生点",
+  "command.tps.position_success": "§a已传送 %s 到指定坐标",
+  "command.tps.cooldown": "§c传送冷却中，请等待3秒",
+  "command.tps.no_cheat": "§c非作弊模式下只允许玩家之间传送",
+  "command.tps.unsafe": "§c目标位置不安全，传送被阻止！",
+  "command.tps.player_not_found": "§c未找到玩家：%s",
+  "command.tps.usage": "§e=== 始终允许传送命令 ===\n§6/tps <玩家>§f - 传送到指定玩家\n§6/tps <玩家1> <玩家2>§f - 传送玩家1到玩家2\n§6/tps <玩家> home§f - 传送玩家到重生点\n§6/tpshome§f - 传送到自己的重生点\n§6/tpshere <玩家>§f - 让玩家传送到你身边\n§6/tpstome <玩家>§f - 同上，让玩家传送到你身边\n§6/tps <玩家> <x> <y> <z>§f - 作弊模式下传送到坐标",
+
+  "key.category.alwaysallowtp": "始终允许传送",
+
+  "config.alwaysallowtp.enableCrossDimension": "跨维度传送",
+  "config.alwaysallowtp.strictSafetyCheck": "严格安全检查",
+  "config.alwaysallowtp.safeSearchRadius": "安全搜索半径",
+  "config.alwaysallowtp.cooldownSeconds": "冷却时间",
+  "config.alwaysallowtp.title": "始终允许传送配置"
+}
